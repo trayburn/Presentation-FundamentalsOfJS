@@ -19,10 +19,10 @@ var testObject = {
 
 // For instance, if we are looking at Addition:
 
-console.log(testString + testNumber);
-console.log(testNumber + testString);
-console.log(typeof(testString + testNumber));
-console.log(typeof(testNumber + testString));
+// console.log(testString + testNumber);
+// console.log(testNumber + testString);
+// console.log(typeof(testString + testNumber));
+// console.log(typeof(testNumber + testString));
 
 // console.log(testString + testBoolean);
 // console.log(testBoolean + testString);
@@ -58,18 +58,17 @@ console.log(typeof(testNumber + testString));
 // console.log(typeof(testNull + testBoolean));
 
 
-
 // There are several values in JavaScript which
 // are considered false by nature.  For instance:
 
-// if (0) { console.log('That is true') }
-// else { console.log('That is false') }
+if (0) { console.log('That is true') }
+else { console.log('That is false') }
 
-// if ('') { console.log('That is true') }
-// else { console.log('That is false') }
+if ('') { console.log('That is true') }
+else { console.log('That is false') }
 
-// if (null) { console.log('That is true') }
-// else { console.log('That is false') }
+if (null) { console.log('That is true') }
+else { console.log('That is false') }
 
-// if (undefined) { console.log('That is true') }
-// else { console.log('That is false') }
+if (undefined) { console.log('That is true') }
+else { console.log('That is false') }

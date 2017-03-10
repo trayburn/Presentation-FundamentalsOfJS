@@ -4,9 +4,10 @@ var twitter = "@trayburn";
 var phone = "817-300-9788";
 var email = "tim@timrayburn.net";
 var blog = "http://TimRayburn.net";
+var repo = "https://github.com/trayburn/Presentation-FundamentalsOfJS";
 
 console.log(`
-Fundamentals of Javscript
+Fundamentals of Javascript
 -------------------------
 
 Presented by : ${name} (${twitter})
@@ -17,6 +18,9 @@ You can reach me afterwards at:
   - Phone   : ${phone}
   - Blog    : ${blog}
   - Twitter : ${twitter}
+
+All the code can be found at:
+${repo}
 
 At the current time Improving is looking for some
 talented people to join our team!  If you are

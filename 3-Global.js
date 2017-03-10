@@ -7,6 +7,7 @@ for (prop in global) {
 console.log('--------------------------------------');
 
 console.log(prop);
+var myName = 'Tim Rayburn';
 
 console.log('--------------------------------------');
 

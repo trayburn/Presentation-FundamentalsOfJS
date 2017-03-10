@@ -17,4 +17,4 @@ console.log(Person.prototype);
 console.log(p);
 console.log(Person.prototype);
 
-// console.log(p.fullName());
+console.log(p.fullName());

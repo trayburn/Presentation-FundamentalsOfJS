@@ -24,3 +24,16 @@
 //   var foo = value;
 // })
 // console.log(foo);
+
+
+function x() {
+  var myName = 'Tim Rayburn';
+  y();
+  function y() {
+    var myOtherName = 'Timothy J. Rayburn';
+    console.log(myName);
+  }
+  //console.log(myOtherName);
+}
+
+x();
